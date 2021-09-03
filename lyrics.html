@@ -1,0 +1,133 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>finn</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META HTTP-EQUIV="expires" CONTENT="0">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<link href="finn.css" rel="stylesheet" type="text/css">
+<link href="menu.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="javascript/slidemenu.js" type="text/javascript">
+/**********************************************************************************
+SlideMenu 2.0
+*   Copyright (C) 2002 Thomas Brattli
+*   This script was released at DHTMLCentral.com
+*   Visit for more great scripts!
+*   This may be used and changed freely as long as this msg is intact!
+*   We will also appreciate any links you could give us.
+*
+*   Made by Thomas Brattli
+*
+*Script date: 08/05/2002 (keep this date to check versions)
+*Updated to modify div/iframe size, placement and contents 16/06/03
+*flash and dhtml menus built same from database 
+*   Mods by James Kaye 
+*   j.kaye@toffeeapplecreative.com
+*********************************************************************************/
+</script>
+<style title="text/css">
+
+/* NEEDED STYLES */
+div.slideMenuBG{position:absolute; left:0; top:0; z-index:1}
+div.slideMenuText{position:absolute; left:2; top:2; z-index:200;}
+/* NEEDED ----- This class should be named like this:
+	#NAME_OF_YOUR_MENUcont
+*/
+#slideMenucont{position:absolute; height:*; width:169; visibility:hidden;}
+
+</style>
+</head>
+<body marginleft="0"  bgcolor="white" marginheight="0" class="iframe_bodymenu2">
+<script>
+
+slideMenu = new createSlideMenu("slideMenu")
+
+
+slideMenu.menuy=1 
+slideMenu.menux=0 
+slideMenu.useImages = 1 
+slideMenu.pxspeed=20 
+slideMenu.timspeed=25 
+slideMenu.inset = 0 
+slideMenu.arrow = 0 
+	
+
+//Needed dummy classes - 
+slideMenu.bgClass =	"slideMenuBG"
+slideMenu.txtClass = "slideMenuText"
+
+slideMenu.level[0] = new slideMenu_makeLevel(
+	left = 0,
+	width = 165,
+	height = 15,
+	between = 1,
+	className = "clSlideMenu",
+	classNameA = "clA0",
+	regImage = "img/menu1cl.gif",
+	roundImg = "img/menu3op.gif",
+	roundImg2 = "",
+	subImg = "",
+	subRound= "")
+	
+slideMenu.level[1] = new slideMenu_makeLevel(12,155,15,2,"clSlideMenu","clA1","img/menu2op.gif")
+//Image preload ---
+for(var i=0;i<slideMenu.level;i++){
+	var l = slideMenu.level[i]
+	new preLoadBackgrounds(l.regImage,l.roundImg,l.roundImg2,l.subImg,l.subRound)
+}
+
+//Menu 1 -----------------------
+slideMenu.makeMenu('top','read_me','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics_readme.html\',\'read_me\');')
+
+slideMenu.makeMenu('top','2005')
+slideMenu.makeMenu('sub','"Пожалуйста... умри"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics05_04.html\',\'пожалуйста... умри\');')
+slideMenu.makeMenu('sub','"Пока плачут Небеса"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics05_03.html\',\'пока плачут небеса\');')
+slideMenu.makeMenu('sub','"Nature"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics05_02.html\',\'nature\');')
+slideMenu.makeMenu('sub','"Расплетая сновидения"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics05_01.html\',\'расплетая сновидения\');')
+
+slideMenu.makeMenu('top','2004')
+slideMenu.makeMenu('sub','_рецензия','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_r01.html\',\'_рецензия\');')
+slideMenu.makeMenu('sub','"Исповедь"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_19.html\',\'исповедь\');')
+slideMenu.makeMenu('sub','"Песнь падшего изгнанника"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_18.html\',\'песнь падщего изгнанника\');')
+slideMenu.makeMenu('sub','"Немного Смерти и Любви"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_17.html\',\'немного смерти и любви\');')
+slideMenu.makeMenu('sub','"Продолжение кошмара"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_16.html\',\'продолжение кошмара\');')
+slideMenu.makeMenu('sub','"Снежная Королева"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_15.html\',\'снежная королева\');')
+slideMenu.makeMenu('sub','"Пьяный поэт"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_14.html\',\'пьяный поэт\');')
+slideMenu.makeMenu('sub','"Комната"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_13.html\',\'комната\');')
+slideMenu.makeMenu('sub','"Сплю и рыдаю с тобой"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_12.html\',\'сплю и рыдаю с тобой\');')
+slideMenu.makeMenu('sub','"Наша колыбельная"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_11.html\',\'наша колыбельная\');')
+slideMenu.makeMenu('sub','"Я тебя увижу"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_10.html\',\'я тебя увижу\');')
+slideMenu.makeMenu('sub','"У твоей могилы"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_09.html\',\'у твоей могилы\');')
+slideMenu.makeMenu('sub','"Ангел: печаль моя"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_06.html\',\'ангел: печаль моя\');')
+slideMenu.makeMenu('sub','"Забвение"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_05.html\',\'забвение\');')
+slideMenu.makeMenu('sub','"Печальный рок Судьбы"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_04.html\',\'печальный рок судьбы\');')
+slideMenu.makeMenu('sub','"Мой Ангел"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_03.html\',\'мой англе\');')
+slideMenu.makeMenu('sub','"Осколки мыслей"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_02.html\',\'осколки мыслей\');')
+slideMenu.makeMenu('sub','"Открой глаза"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics04_01.html\',\'открой глаза\');')
+
+slideMenu.makeMenu('top','2003')
+slideMenu.makeMenu('sub','"Обнаженная ночь"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_16.html\',\'обнаженная ночь\');')
+slideMenu.makeMenu('sub','"Силуэт"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_15.html\',\'силуэт\');')
+slideMenu.makeMenu('sub','"Ночь без тебя/Без тебя"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_14.html\',\'ночь без тебя/без тебя\');')
+slideMenu.makeMenu('sub','"Треугольник"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_13.html\',\'треугольник\');')
+slideMenu.makeMenu('sub','"... за грехи"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_12.html\',\'...за грехи\');')
+slideMenu.makeMenu('sub','"Странные мысли"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_11.html\',\'странные мысли\');')
+slideMenu.makeMenu('sub','"Не забуду"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_10.html\',\'не забуду\');')
+slideMenu.makeMenu('sub','"По тебе скучаю"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_09.html\',\'по тебе скучаю\');')
+slideMenu.makeMenu('sub','"Ответ на Исповедь"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_08.html\',\'ответ на исповедь\');')
+slideMenu.makeMenu('sub','"Муза"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_07.html\',\'муза\');')
+slideMenu.makeMenu('sub','"Один в темноте"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_06.html\',\'один в темноте\');')
+slideMenu.makeMenu('sub','"Стою на мосту"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_05.html\',\'стою на мосту\');')
+slideMenu.makeMenu('sub','"В поисках Чуда"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_04.html\',\'в поисках чуда\');')
+slideMenu.makeMenu('sub','"Герой"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_03.html\',\'герой\');')
+slideMenu.makeMenu('sub','"Глаза"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_02.html\',\'глаза\');')
+slideMenu.makeMenu('sub','"Зачем?"','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics03_01.html\',\'зачем?\');')
+
+slideMenu.makeMenu('top','2002','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics2002.html\',\'2002\');')
+slideMenu.makeMenu('top','2001','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,325,395,\'pages/creation/lyrics/lyrics2001.html\',\'2001\');')
+
+slideMenu.init()		
+</script>
+</body>
+</html>
