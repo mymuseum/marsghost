@@ -9,7 +9,7 @@ div.clSlideMenu{ /* All slideMenu2 DIV elements */
 	height:15;
 }
 a.clA0{ /* All top level links */
-	color:black;
+	color:#5B533E;
 	font-size:10px;
 	text-decoration:none;
 	margin-left:9px;
@@ -17,22 +17,24 @@ a.clA0{ /* All top level links */
 	font-weight:normal;
 }
 a.clA1{ /* All sub level links */
-	color:black;
+	color:#5B533E;
 	font-size:10px;
 	text-decoration:none;
 	line-height:11px;
-	font-weight:normal;
+    font-weight:normal;}
+a.clA1:hover {
+	COLOR: #912523;
 }
 a.clA2{ /* All sub2 level links */
-	color:navy;
+	color:#5B533E;
 	text-decoration:none;
 }
 a.clA3{ /* All sub3 level links */
-	color:black;
+	color:#5B533E;
 	text-decoration:none;
 }
 a.clA4{ /* All sub4 level links */
-	color:green;
+	color:#5B533E;
 	text-decoration:none;
 }
 
