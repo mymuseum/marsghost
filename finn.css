@@ -104,14 +104,14 @@ body{
 
 .title,.titletable,.menutit{
 	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	
-	line-height:12px; 
-	font-size:10px ; 
+	line-height:12px;
+	font-size:10px; 
 	color:#857650;
 }
 
 .menutit{line-height:13px;}
 
-.titletable{height: 15px;}
+.titletable{height:15px;}
 
 .finnsecond, .finnthird, .finntemp, .finnlatest{
 	position:absolute;
@@ -183,7 +183,7 @@ a.lat_news:hover {
 }
 a.mail:link, A:visited, A:active {
 	font : normal normal 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
-	COLOR: #5B533E;
+	COLOR: #857650;
 }
 a.mail:hover {
 	font : normal normal 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
