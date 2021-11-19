@@ -2,15 +2,15 @@
 
 div.clSlideMenu{ /* All slideMenu2 DIV elements */
 	position:absolute;
-	font-family:verdana,arial,helvetica;
-	font-size:10px;
+	font-family:blender pro,verdana,arial,helvetica;
+	font-size:14px;
 	overflow:hidden;
 	width:165;
 	height:15;
 }
 a.clA0{ /* All top level links */
 	color:#857650;
-	font-size:10px;
+	font-size:14px;
 	text-decoration:none;
 	margin-left:9px;
 	line-height:11px;
@@ -18,7 +18,7 @@ a.clA0{ /* All top level links */
 }
 a.clA1{ /* All sub level links */
 	color:#857650;
-	font-size:10px;
+	font-size:14px;
 	text-decoration:none;
 	line-height:11px;
     font-weight:normal;}
