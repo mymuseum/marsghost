@@ -203,10 +203,10 @@ h3{
 }
 .text{
 	position:absolute;
-	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family : blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	top:10px;
 	right:10px;
 	left:20px;
 	line-height : 12px;
-	font-size : 10px;
+	font-size : 14px;
 }
