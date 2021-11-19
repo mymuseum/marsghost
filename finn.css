@@ -3,6 +3,7 @@
 
 body{
 	font-family:blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	src: url(fonts/blenderpro-medium.ttf);
 	font-size: 12px;
 }
 

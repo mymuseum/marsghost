@@ -3,6 +3,7 @@
 div.clSlideMenu{ /* All slideMenu2 DIV elements */
 	position:absolute;
 	font-family:blender pro,verdana,arial,helvetica;
+	src: url(fonts/blenderpro-medium.ttf);
 	font-size:14px;
 	overflow:hidden;
 	width:165;
