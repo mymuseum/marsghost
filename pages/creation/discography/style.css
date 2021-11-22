@@ -1,7 +1,7 @@
 A:link {color: #333333; text-decoration: none;}
 A:visited {color: #333333; text-decoration: none;}
 A:active  {color: #333333; text-decoration: none;}
-A:hover   {color: #333333; text-decoration: underline;}	
+A:hover   {color: #333333; text-decoration: underline;}
 
 body {	scrollbar-3dlight-color: #666666;
 	scrollbar-highlight-color: #FFFFFF;
@@ -12,7 +12,8 @@ body {	scrollbar-3dlight-color: #666666;
     scrollbar-base-color: #666666;
     scrollbar-track-color: #FFFFFF;
 	margin-left : 20px;
-	margin-top : 0px;}
+	margin-top : 0px;
+background-color: #000000;}
 
 .under {
 	font-family: Geneva, Arial, Helvetica, san-serif;
