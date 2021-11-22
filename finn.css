@@ -2,9 +2,13 @@
 }
 
 body{
-	font-family:blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
-	src: url(./fonts/blenderpro-medium.ttf);
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
+}
+
+@font-face {
+    font-family: 'Blender'; /*a name to be used later*/
+		src: url('./fonts/blenderpro-medium.ttf');
 }
 
 .jpgfix{
