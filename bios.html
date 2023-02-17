@@ -8,7 +8,6 @@
 <link href="finn.css" rel="stylesheet" type="text/css">
 <link href="menu.css" rel="stylesheet" type="text/css">
 <style title="text/css">
-
 /* NEEDED STYLES */
 div.slideMenuBG{position:absolute; left:0; top:0; z-index:1}
 div.slideMenuText{position:absolute; left:2; top:2; z-index:200;}
@@ -38,10 +37,7 @@ SlideMenu 2.0
 </head>
 <body marginleft="0"  bgcolor="white" marginheight="0" class="iframe_bodymenu2">
 <script>
-
 slideMenu = new createSlideMenu("slideMenu")
-
-
 slideMenu.menuy=1
 slideMenu.menux=0
 slideMenu.useImages = 1
@@ -49,12 +45,9 @@ slideMenu.pxspeed=20
 slideMenu.timspeed=25
 slideMenu.inset = 0
 slideMenu.arrow = 0
-
-
 //Needed dummy classes -
 slideMenu.bgClass =	"slideMenuBG"
 slideMenu.txtClass = "slideMenuText"
-
 slideMenu.level[0] = new slideMenu_makeLevel(
 	left = 0,
 	width = 165,
@@ -74,14 +67,9 @@ for(var i=0;i<slideMenu.level;i++){
 	var l = slideMenu.level[i]
 	new preLoadBackgrounds(l.regImage,l.roundImg,l.roundImg2,l.subImg,l.subRound)
 }
-
 //Menu 1 -----------------------
-slideMenu.makeMenu('top','Мысли вслух [часть_3]','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,405,395,\'pages/bios/bios06.html\',\'мысли вслух [часть_3]\');')
-slideMenu.makeMenu('top','Мои прозвища','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,405,395,\'pages/bios/bios05.html\',\'мои прозвища\');')
-slideMenu.makeMenu('top','Краткая биография','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,405,395,\'pages/bios/bios04.html\',\'краткая биография\');')
-slideMenu.makeMenu('top','Мысли Вслух [часть_2]','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,405,395,\'pages/bios/bios02.html\',\'мысли вслух\');')
+slideMenu.makeMenu('top','BIO.SYS','javascript:parent.togglemenu(\'finnthird\',\'visible\',80,410,405,395,\'pages/bios/bios_short.html\',\'bio.sys\');')
 slideMenu.init()
-
 </script>
 </body>
 </html>

@@ -16,8 +16,8 @@ body {	scrollbar-3dlight-color: #666666;
 background-color: #2A2F2B;}
 
 .under {
-	font-family: Geneva, Arial, Helvetica, san-serif;
-	font-size: 9px;
+	font-family: blender pro, Geneva, Arial, Helvetica, san-serif;
+	font-size: 11px;
 	line-height: 15px;
 	color: #666666;
 	text-decoration: none;
@@ -25,22 +25,22 @@ background-color: #2A2F2B;}
 }
 
 .txt {
-	font-family: Geneva, Arial, Helvetica, san-serif;
-	font-size: 11px;
+	font-family: blender pro, Geneva, Arial, Helvetica, san-serif;
+	font-size: 14px;
 	line-height: 15px;
 	color: #666666;
 	text-decoration: none;
 	margin-left : 5px;
 }
 .head {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 14px;
+	font-family: blender pro, Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
 	line-height: 14px;
 	color: #666666;
 	margin : 10px;
 }
 .txtnews {
-	font-family: Geneva, Arial, Helvetica, san-serif;
+	font-family: blender pro, Geneva, Arial, Helvetica, san-serif;
 	font-size: 9px;
 	line-height: normal;
 	color: #ffffff;

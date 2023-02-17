@@ -2,7 +2,7 @@
 }
 
 body{
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 }
 
@@ -108,9 +108,9 @@ body{
 
 
 .title,.titletable,.menutit{
-	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-family: blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	line-height:12px;
-	font-size:10px;
+	font-size:14px;
 	color:#857650;
 }
 
@@ -177,33 +177,34 @@ body{
 }
 
 .style1{
-	font : normal normal 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font : normal normal 10px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
 
 a.lat_news:link, A:visited, A:active {
-	COLOR: #5B533E;
+	font : normal normal 10px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    COLOR: #5B533E;
 }
 a.lat_news:hover {
 	COLOR: #912523;
 }
 a.mail:link, A:visited, A:active {
-	font : normal normal 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font : normal normal 14px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	COLOR: #857650;
 }
 a.mail:hover {
-	font : normal normal 10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font : normal normal 14px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	COLOR: #912523;
 }
 h1{
-	font : normal bold 16px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font : normal bold 16px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	COLOR: #5B533E;
 }
 h2{
-	font : normal bold 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font : normal bold 12px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	COLOR: #5B533E;
 }
 h3{
-	font : normal bold 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font : normal bold 9px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
 	COLOR: #5B533E;
 }
 .text{

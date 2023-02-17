@@ -1,7 +1,7 @@
 body{
   background-color: #ffffff;
   color: #7C7C7C;
-  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: blender pro, Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-size: 10px;
   /* this attribute sets the basis for all the other scrollbar colors (Internet Explorer 5.5+ only) */
   scrollbar-face-color: #002040; 
@@ -14,7 +14,7 @@ body{
 }
 
 a{
-	font-family:verdana,sans-serif;
+	font-family:blender pro, verdana,sans-serif;
 	font-size:10px;
 	color:#777777;
 	font-weight:bold;
@@ -23,7 +23,7 @@ a{
 }
 
 a:hover{
-	font-family:verdana,sans-serif;
+	font-family:blender pro, verdana,sans-serif;
 	font-size:10px;
 	color:#000000;
 	font-weight:bold;
@@ -33,7 +33,7 @@ a:hover{
 }
 
 a.mail{
-	font-family:verdana,sans-serif;
+	font-family:blender pro, verdana,sans-serif;
 	font-size:10px;
 	color:#597396;
 	font-weight:bold;
@@ -41,7 +41,7 @@ a.mail{
 }
 
 a.mail:hover{
-	font-family:verdana,sans-serif;
+	font-family:blender pro, verdana,sans-serif;
 	font-size:10px;
 	color:#444444;
 	font-weight:bold;
@@ -89,7 +89,7 @@ border:1px solid #777777;
 
 
 .main{
-      font-family:arial;
+      font-family:blender pro, arial;
       font-size:10px;
       color:#aaaaaa;
 
