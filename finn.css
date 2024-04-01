@@ -22,10 +22,10 @@ body{
 	width:188px;
 	height:63px;
 	border: 1px solid #666666;
-	background: #2A2F2B url('img/logo2.jpg') no-repeat;
+	background: #2A2F2B url('img/logo3.jpg') no-repeat;
 	z-index:1;
 	filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='#BFBFBF', Positive=true);
-	background-image:url('img/logo2.jpg'); background-repeat:no-repeat
+	background-image:url('img/logo3.jpg'); background-repeat:no-repeat
 }
 .img{
 	border: 1px solid #666666;
