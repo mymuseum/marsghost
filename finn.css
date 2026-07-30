@@ -189,7 +189,7 @@ a.lat_news:hover {
 }
 a.textcaps:{
 	COLOR: #5B533E;}
-a.textcaps_:link, A:visited, A:active {
+a.textcaps:link, A:visited, A:active {
 	font : normal normal 14px blender pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
     COLOR: #5B533E;
 }
